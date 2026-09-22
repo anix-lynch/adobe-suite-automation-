@@ -1,0 +1,5 @@
+{
+  "ig_square":      { "width": 1080, "height": 1080 },
+  "fb_landscape":    { "width": 1200, "height": 630 },
+  "story_vertical":  { "width": 1080, "height": 1920 }
+}

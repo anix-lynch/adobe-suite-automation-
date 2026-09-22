@@ -1,0 +1,6 @@
+=== FAILED LOAD (before manifest fix) — from: /Users/anixlynch/Library/Logs/Adobe/Adobe Premiere Pro 2026/UXPLogs_2026-09-21_10-50-19_681584.log ===
+[2026-09-21_10-50-19][0x1f9d5e180][Error] [general] Plugin com.bchan.pproprobe : Expected the host attribute to be an object for the 3P Plugin
+[2026-09-21_10-50-19][0x1f9d5e180][Error] [general] Plugin com.bchan.pproprobe : Expected the host attribute to be an object for the 3P Plugin
+
+=== SUCCESSFUL LOAD (after fixing host: array -> object) — from: /Users/anixlynch/Library/Logs/Adobe/Adobe Premiere Pro 2026/UXPLogs_2026-09-21_10-53-24_367130.log ===
+[2026-09-21_10-53-24][0x1f9d5e180][Info] upic::Number of plugins added from user's fallback: 1

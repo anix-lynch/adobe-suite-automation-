@@ -1,0 +1,11 @@
+{
+  "canvas": { "width": 1600, "height": 900 },
+  "background_color": "#17324d",
+  "layers": [
+    { "type": "text", "name": "Brand Wordmark", "content": "LUNA RETAIL", "x": 80, "y": 70, "size": 30, "color": "#fbf8ef" },
+    { "type": "text", "name": "Headline", "content": "Sell designer goods\nwith confidence.", "x": 80, "y": 260, "size": 54, "color": "#fbf8ef" },
+    { "type": "text", "name": "Subhead", "content": "Opening in West Hollywood — handbags, jewelry\n& watches, professionally appraised.", "x": 80, "y": 460, "size": 28, "color": "#c7d3de" },
+    { "type": "image", "name": "Product Photo", "source": "00_source_assets/_presized/photo_banner_640.png", "x": 900, "y": 90 },
+    { "type": "text", "name": "CTA", "source_file": "00_source_assets/campaign_copy/cta.txt", "x": 80, "y": 740, "size": 34, "color": "#fbf8ef" }
+  ]
+}

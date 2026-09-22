@@ -1,0 +1,10 @@
+{
+  "campaign_name": "Luna Retail Grand Opening",
+  "offer_type": "first_purchase_discount",
+  "discount_percent": 10,
+  "location": "West Hollywood, CA (concept location)",
+  "opening_date": "2026-10-01",
+  "channels": ["marketplace", "email", "social", "ads", "video"],
+  "handle": "@lunaretail",
+  "note": "Fictional brand used for a portfolio production case study. Not a real offer."
+}

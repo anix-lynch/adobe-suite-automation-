@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080x1920p30" frameDuration="100/3000s" width="1080" height="1920"/>
+    <asset id="a1" name="brand_logo_transparent" src="file:///Users/anixlynch/dev/job_search/personal_brand/ecommerce_campaign_asset_kit/00_source_assets/logo/brand_logo_transparent.png" hasVideo="1" duration="0s" format="r1"/>
+    <asset id="a2" name="product_hero_transparent" src="file:///Users/anixlynch/dev/job_search/personal_brand/ecommerce_campaign_asset_kit/00_source_assets/product_visuals/product_hero_transparent.png" hasVideo="1" duration="0s" format="r1"/>
+  </resources>
+  <library>
+    <event name="Luna Retail Product Reel">
+      <project name="product_reel">
+        <sequence format="r1" duration="450/30s" tcStart="0s" tcFormat="NDF">
+          <spine>
+            <!-- 0-3s: logo fade in -->
+            <video ref="a1" name="Logo" offset="0s" start="0s" duration="90/30s">
+              <adjust-transform position="540 300"/>
+              <filter-video name="Opacity">
+                <param name="amount" key="1" value="0"/>
+              </filter-video>
+            </video>
+            <!-- 3-7s: product hero scale-bounce -->
+            <video ref="a2" name="Product Hero" offset="90/30s" start="0s" duration="120/30s">
+              <adjust-transform position="540 960" scale="0.2 0.2"/>
+            </video>
+            <!-- 7-11s: headline text -->
+            <title name="Headline" offset="210/30s" duration="120/30s">
+              <text>Sell designer goods with confidence.</text>
+            </title>
+            <!-- 11-15s: CTA text -->
+            <title name="CTA" offset="330/30s" duration="120/30s">
+              <text>Follow @lunaretail</text>
+            </title>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

@@ -1,0 +1,14 @@
+{
+  "canvas": { "width": 2400, "height": 3200, "unit": "px" },
+  "background_color": "#fbf8ef",
+  "layers": [
+    { "type": "text", "name": "Brand Label", "content": "LUNA RETAIL", "x": 240, "y": 320, "size": 42, "color": "#566d85" },
+    { "type": "text", "name": "Headline EN", "content": "GRAND OPENING", "x": 240, "y": 470, "size": 130, "weight": "bold", "color": "#0f1928" },
+    { "type": "text", "name": "Headline JP", "content": "開店", "x": 240, "y": 940, "size": 100, "weight": "bold", "color": "#0f1928" },
+    { "type": "text", "name": "Subhead JP", "content": "ブランド品・貴金属 高価買取", "x": 240, "y": 1140, "size": 56, "color": "#0f1928" },
+    { "type": "image", "name": "Product Photo", "source": "00_source_assets/_presized/real_photo_flyer_1920.png", "x": 240, "y": 1330 },
+    { "type": "text", "name": "Location", "content": "West Hollywood, CA (concept location)", "x": 240, "y": 2650, "size": 46, "color": "#566d85" },
+    { "type": "text", "name": "Opening Date", "content": "Opening October 2026", "x": 240, "y": 2730, "size": 46, "color": "#566d85" },
+    { "type": "text", "name": "Handle", "content": "Follow @lunaretail", "x": 240, "y": 2810, "size": 46, "color": "#566d85" }
+  ]
+}

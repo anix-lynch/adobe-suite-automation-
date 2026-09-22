@@ -1,0 +1,11 @@
+{
+  "duration_seconds": 15,
+  "fps": 30,
+  "canvas": { "width": 1080, "height": 1920 },
+  "segments": [
+    { "start": 0,  "end": 3,  "layer": "Logo",           "animation": "fade_in" },
+    { "start": 3,  "end": 7,  "layer": "Product Hero",   "animation": "scale_in_bounce" },
+    { "start": 7,  "end": 11, "layer": "Headline",       "animation": "slide_up" },
+    { "start": 11, "end": 15, "layer": "CTA",            "animation": "fade_in" }
+  ]
+}

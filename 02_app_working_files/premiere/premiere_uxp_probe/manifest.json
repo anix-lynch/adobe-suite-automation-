@@ -1,0 +1,19 @@
+{
+  "id": "com.bchan.pproprobe",
+  "name": "Probe Panel",
+  "version": "1.0.0",
+  "main": "index.html",
+  "host": { "app": "premierepro", "minVersion": "25.0.0" },
+  "manifestVersion": 5,
+  "requiredPermissions": {
+    "localFileSystem": "request"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "probepanel",
+      "minimumSize": { "width": 200, "height": 200 },
+      "label": { "default": "Probe Panel" }
+    }
+  ]
+}
