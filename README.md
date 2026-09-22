@@ -1,5 +1,9 @@
 # Adobe Suite Automation — E-commerce Campaign Case Study
 
+![Demo](demo.gif)
+
+🔗 **GitHub:** https://github.com/anix-lynch/adobe-suite-automation-
+
 Portable production case study proving: source assets → scriptable recipes →
 real Adobe app working files → real final exports. Built as a testable,
 end-to-end demonstration of programmatic Adobe Creative Suite production —
